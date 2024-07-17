@@ -1,3 +1,7 @@
+<script lang="ts">
+	export let followers;
+</script>
+
 <div class="navbar bg-base-100">
 	<div class="navbar-start">
 		<div class="dropdown">
@@ -22,18 +26,18 @@
 				class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
 			>
 				<li><a class="text-xl" href="/">Homepage</a></li>
+				<li><a class="text-xl" href="/contributors">Contributors</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="navbar-center">
-		<a href="https://github.com/race-tech" class="btn btn-ghost text-2xl">race tech</a>
+		<a target="_href" href="https://github.com/race-tech" class="btn btn-ghost text-2xl"
+			>race tech</a
+		>
 	</div>
 	<div class="navbar-end">
-		<button class="btn btn-ghost">
-			<svg
-				class="h-10 w-10 fill-base-content"
-				viewBox="0 0 98 98"
-				xmlns="http://www.w3.org/2000/svg"
+		<a target="_href" href="https://github.com/race-tech" class="btn btn-ghost">
+			<svg class="h-6 w-6 fill-base-content" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg"
 				><path
 					fill-rule="evenodd"
 					clip-rule="evenodd"
@@ -41,6 +45,7 @@
 					fill="inherit"
 				/></svg
 			>
-		</button>
+			<span class="ml-2 font-bold text-xl">{followers}</span>
+		</a>
 	</div>
 </div>
