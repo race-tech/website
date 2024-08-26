@@ -60,8 +60,8 @@ importers:
         specifier: ^3.4.10
         version: 3.4.10
       tslib:
-        specifier: ^2.4.1
-        version: 2.6.3
+        specifier: ^2.7.0
+        version: 2.7.0
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
@@ -1452,8 +1452,8 @@ packages:
   tslib@2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
 
-  tslib@2.6.3:
-    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+  tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -2802,7 +2802,7 @@ snapshots:
       popmotion: 11.0.5
       style-value-types: 5.1.2
       svelte: 4.2.18
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   svelte-preprocess@5.1.4(postcss-load-config@4.0.2(postcss@8.4.41))(postcss@8.4.41)(svelte@4.2.18)(typescript@5.5.4):
     dependencies:
@@ -2890,7 +2890,7 @@ snapshots:
 
   tslib@2.4.0: {}
 
-  tslib@2.6.3: {}
+  tslib@2.7.0: {}
 
   type-check@0.4.0:
     dependencies:
